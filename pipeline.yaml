@@ -61,7 +61,7 @@ spec:
         kind: ClusterTask
       params:
         - name: image
-          value: $(params.build.image)
+          value: $(params.build-image)
       runAfter:
         - tests
 

@@ -48,7 +48,7 @@ spec:
         #!/bin/bash
         set -e
 
-        echo "***** Environment *****"
+        echo "***** Environment *****" 
         npm --version
         pwd
 
@@ -75,5 +75,3 @@ spec:
 
         echo "***** Running jasminetests *****"
         npx jasmine
----
-
